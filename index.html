@@ -2,35 +2,82 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horizonte Blue</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Horizonte Blue - Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="card">
-        <header>
-        <h1>Horizonte Blue</h1>
-
-
-        
-        <div class="container">
-        <img src="https://images.unsplash.com/photo-1702396490992-9db81a33271f?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
-        <div class="texto-centro">Sua jornada começa aqui</div>
-        <div class="texto-centro2">Conectando você aos lugares mais incriveis do planeta com conforto e exclusividade.</div>
-
+    <div id="cabecalho">
+        <div class="container-nav">
+            <h1 class="logo">Horizonte Blue</h1>
+            <div id="menu">
+                <a href="index.html">Início</a>
+                <a href="destinos.html">Destinos</a>
+            </div>
+        </div>
     </div>
 
-        </header>
+    <div id="banner">
+        <div class="banner-conteudo">
+            <h2>Sua jornada começa aqui</h2>
+            <p>Conectando você aos lugares mais incríveis do planeta com conforto e exclusividade.</p>
+        </div>
+    </div>
 
-        <section>
-            <h2>Serviços em destaque</h2>
-                <ul>
-                    <li>Consultoria Personalizada: Roteiros sob medida.</li>
-                    <li>Logística Completa: Passagens e translados premium.</li>
-                    <li>Experiências Locais: Guias nativos em todos os destinos.</li>   
-                </ul>
-        </section>
-        
+    <div class="secao">
+        <h3>Serviços em Destaque</h3>
+        <ul>
+            <li><strong>Consultoria Personalizada:</strong> Roteiros sob medida.</li>
+            <li><strong>Logística Completa:</strong> Passagens e traslados premium.</li>
+            <li><strong>Experiências Locais:</strong> Guias nativos em todos os destinos.</li>
+        </ul>
+    </div>
 
+    <div class="secao">
+        <h3>Tabela Comparativa de Pacotes</h3>
+        <table class="tabela-precos">
+            <tr class="topo-tabela">
+                <th>Serviço</th>
+                <th>Vantagens</th>
+                <th>Preço Base</th>
+            </tr>
+            <tr>
+                <td>Econômico</td>
+                <td>Acomodação em Pousadas + Passagem Standard</td>
+                <td>R$ 1.500</td>
+            </tr>
+            <tr class="linha-cinza">
+                <td>Executivo</td>
+                <td>Hotéis 4 estrelas + Café e Jantar inclusos</td>
+                <td>R$ 3.800</td>
+            </tr>
+            <tr>
+                <td>VIP</td>
+                <td>Resort All Inclusive + Guia Privativo + Classe Executiva</td>
+                <td>R$ 7.500</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="secao">
+        <h3>Inspire-se: Nosso destino do mês</h3>
+
+                <div class="video-box">
+                    <iframe 
+                        width="100%" 
+                        height="450" 
+                        src="https://www.youtube.com/embed/3vI8Bv7F_pY" 
+                        title="Destino do Mês" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+    </div>
+
+    <div id="rodape">
+        <p>© 2026 Horizonte Blue - Viagens & Turismo</p>
+        <p>Contato: (11) 9999-9999 | contato@horizonteblue.com.br</p>
+    </div>
 </body>
 </html>
