@@ -1,35 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<meta charset="UTF-8">
-<title>Login - Horizonte Blue</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Login - Horizonte Blue</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="pagina-estatica">
+    <div id="cabecalho">
+        <div class="container-nav">
+            <h1 class="logo">
+                <a href="index.html" style="text-decoration: none; color: inherit;">Horizonte Blue</a>
+            </h1>
+        </div>
+    </div>
 
-<div class="secao-login">
+    <div class="secao-login">
+        <form id="formLogin">
+            <h2>Login</h2>
 
-<form id="formLogin">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="admin@horizonte.com" required>
 
-    <h2>Login</h2>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" placeholder="••••••••" required>
 
-    <label for="email">E-mail:</label>
-    <input type="email" id="email">
+            <button type="submit">Entrar</button>
 
-    <label for="senha">Senha:</label>
-    <input type="password" id="senha">
+            <p id="mensagemErro" class="erro"></p>
+        </form>
+    </div>
 
-    <button type="submit">Entrar</button>
+    <div id="interface"></div>
 
-    
-    <p id="mensagemErro" class="erro"></p>
+    <div class="pagina-curta"></div>
 
-</form>
+    <div id="rodape">
+        <p>© 2026 Horizonte Blue - Viagens & Turismo</p>
+    </div>
 
-</div>
-
-<script src="script.js"></script>
-
+    <script src="script.js"></script>
 </body>
 </html>

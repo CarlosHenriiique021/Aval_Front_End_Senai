@@ -40,8 +40,8 @@ body {
 #banner {
     max-width: 1400px;
     margin: 30px auto;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-    url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80');
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80');
     background-size: cover;
     background-position: center;
     height: 350px;
@@ -75,7 +75,7 @@ body {
     color: white;
 }
 
-.tabela-precos th, 
+.tabela-precos th,
 .tabela-precos td {
     padding: 15px;
     border: 1px solid #ddd;
@@ -118,8 +118,8 @@ body {
     border-radius: 10px 10px 0 0;
 }
 
-.card-info, 
-.card dl, 
+.card-info,
+.card dl,
 .card h4 {
     padding: 0 15px 15px 15px;
 }
@@ -148,14 +148,21 @@ form {
     margin: 20px auto;
 }
 
-h6 {
+h5 {
     text-align: center;
     width: 90%;
     margin: 30px auto;
     font-size: 19px;
 }
 
-input, 
+h6 {
+    text-align: center;
+    width: 90%;
+    margin: 30px auto;
+    font-size: 22px;
+}
+
+input,
 textarea {
     margin-bottom: 15px;
     padding: 10px;
@@ -190,11 +197,11 @@ textarea {
 }
 
 .video-box {
-    max-width: 900px;
-    margin: 20px auto;
-    background-color: #eee;
+    max-width: 800px;
+    margin: 10px auto;
+    background-color: white;
     padding: 10px;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 #rodape {
@@ -209,6 +216,7 @@ textarea {
     text-align: center;
     width: 100%;
     margin: 30px auto;
+    color: white;
 }
 
 .secao-login form {
@@ -216,4 +224,28 @@ textarea {
     width: 100%;
     margin: 30px auto;
     background-color: #2c3e50;
+}
+
+.pagina-curta {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body.pagina-estatica {
+    overflow: hidden;
+    height: 100vh;
+}
+
+body.pagina-estatica #rodape {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 0;
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
