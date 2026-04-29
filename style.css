@@ -204,3 +204,9 @@ textarea {
     padding: 30px;
     margin-top: 50px;
 }
+
+.login {
+    width: 90%;
+    margin: 30px auto;
+    text-align: left;
+}
